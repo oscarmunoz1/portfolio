@@ -58,6 +58,13 @@ export const projectsData = [
     tags: ["React", "Django", "PostgreSQL"],
     imageUrl: traceitImg,
   },
+  {
+    title: "traceit.io",
+    description:
+      "I created this project from scratch.",
+    tags: ["React", "Django", "PostgreSQL"],
+    imageUrl: traceitImg,
+  },
 ] as const;
 
 export const skillsData = [
