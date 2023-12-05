@@ -2,6 +2,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import React from "react";
+import portfolioImg from "@/public/portfolio.png";
 import traceitImg from "@/public/traceit.png";
 
 export const links = [
@@ -59,11 +60,11 @@ export const projectsData = [
     imageUrl: traceitImg,
   },
   {
-    title: "traceit.io",
+    title: "oscarmunoz-dev.com",
     description:
       "I created this project from scratch.",
-    tags: ["React", "Django", "PostgreSQL"],
-    imageUrl: traceitImg,
+    tags: ["React", "Next JS", "TypeScript", "Tailwind"],
+    imageUrl: portfolioImg,
   },
 ] as const;
 
