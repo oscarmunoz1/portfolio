@@ -1,7 +1,7 @@
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import React from "react";
+import nodeImg from "@/public/node.png";
 import portfolioImg from "@/public/portfolio.png";
 import traceitImg from "@/public/traceit.png";
 
@@ -56,8 +56,20 @@ export const projectsData = [
     title: "traceit.io",
     description:
       "Traceit is a COT (Customer-Oriented Traceability) system focused on the fruit and vegetable trade.",
-    tags: ["React", "Django", "PostgreSQL", "TypeScript", "Chakra UI", "Django REST Framework", "AWS"],
+    tags: [
+      "React",
+      "Django",
+      "PostgreSQL",
+      "TypeScript",
+      "Chakra UI",
+      "Django REST Framework",
+      "AWS",
+    ],
     imageUrl: traceitImg,
+    githubLinks: [
+      "https://github.com/oscarmunoz1/traceit-app",
+      "https://github.com/oscarmunoz1/traceit-back",
+    ],
   },
   {
     title: "oscarmunoz-dev.com",
@@ -65,6 +77,16 @@ export const projectsData = [
       "I created this project in order to have a personal website where I can show my skills and projects.",
     tags: ["React", "Next JS", "TypeScript", "Tailwind"],
     imageUrl: portfolioImg,
+    githubLinks: ["https://github.com/oscarmunoz1/portfolio"],
+  },
+  {
+    title: "NodeJS REST API",
+    description:
+      "It is a nodejs + Express API REST. " +
+      "It replicate the API developed in my Django REST API project.",
+    tags: ["NodeJS", "Express", "MongoDB", "TypeScript"],
+    imageUrl: nodeImg,
+    githubLinks: ["https://github.com/oscarmunoz1/nodejs-api"],
   },
 ] as const;
 

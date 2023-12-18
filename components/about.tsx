@@ -40,7 +40,8 @@ export default function About() {
         music. I'm a fan of sports, especially Football, my favorite team is
         Nacional. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about <span className="font-medium">Node JS and NextJS</span>.
+        learning about <span className="font-medium">NextJS</span> and also{" "}
+        <span className="font-medium">Kafka</span>.
       </p>
     </motion.section>
   );
